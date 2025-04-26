@@ -6,19 +6,20 @@ This repository contains the code and documentation for the research, which inve
 
 ```
 ├── 01-data/               # Data files used in the analysis
-│   ├── raw/               # Raw data from external sources
-│   ├── processed/         # Processed and cleaned datasets
-│   └── output/            # Final data outputs and analysis results
+│   ├── Climate/           # Climate data
+│   ├── Soy_Yield/         # Soybean yield statistics
+│   ├── MIRCA2000/         # Soybean harvest area
+│   ├── Political_Units/   # Political units
+│   └── HAMSTER/           # Moisture source tracking
 │
 ├── 02-src/                # Source code
-│   ├── tracking/          # Atmospheric moisture tracking code
-│   ├── yield_models/      # Statistical crop modeling code
-│   └── analysis/          # Analysis scripts for result interpretation
+│   ├── 01-mods/           # Atmospheric moisture tracking code
+│   ├── 02-prep/           # Preprocessing codes
+│   └── codes/             # Analysis scripts for result interpretation
 │
 ├── 03-doc/                # Documentation
 │   ├── manuscript/        # Manuscript drafts and final version
-│   ├── figures/           # High-resolution figures for publication
-│   └── supplementary/     # Supplementary materials and information
+│   └── figures/           # High-resolution figures for publication
 │
 └── README.md              # Main repository documentation
 ```

@@ -1,0 +1,26 @@
+# This file contains all required paths to run hamster
+
+# MASK
+maskfile  = "/scratch/gent/vo/000/gvo00090/vsc43765/Deforestation-Impacts-on-Climate/02-src/01-mods/mask_states_10deg.nc"
+
+# location of original flexpart files (untarred)
+path_orig = "/scratch/gent/vo/000/gvo00090/vsc43765/Deforestation-Impacts-on-Climate/02-src/01-mods/output/BR-__MVAL__/orig"
+
+# location of the reference data used for bias correction (e.g., ERA-Interim)
+path_ref_p  = "/data/gent/vo/000/gvo00090/FLEXPART/observations/p/mswepv28/1deg/daily"
+path_ref_e  = "/data/gent/vo/000/gvo00090/FLEXPART/observations/e/gleamhybridv36_oafluxv3_eraint/1deg/daily"
+path_ref_h  = "/scratch/gent/vo/000/gvo00090/vsc43765/Data/SH/OUTPUT/data" 
+path_ref_t  = "/data/gent/vo/000/gvo00090/FLEXPART/observations/et_tallveg/gleamhybridv36/1deg/daily"
+
+# path and base name for global t2 diag data
+base_f2t_diag = "global"
+path_f2t_diag = "/scratch/gent/vo/000/gvo00090/D2D/data/FLEXPART/era_global/flex2traj_t2"
+
+# path and base name for trajectory data
+base_f2t_traj = "BR-__MVAL__"
+path_f2t_traj = "/scratch/gent/vo/000/gvo00090/vsc43765/Deforestation-Impacts-on-Climate/02-src/01-mods/output/RGI-__MVAL__/00_f2t"
+
+# paths for processed data
+path_diag = "/data/gent/vo/000/gvo00090/FLEXPART/hamster/diagnosis/eraint_global_ugent/1deg"
+path_attr = "/scratch/gent/vo/000/gvo00090/vsc43765/Deforestation-Impacts-on-Climate/02-src/01-mods/output/BR-__MVAL__/02_attr"
+path_bias = "/scratch/gent/vo/000/gvo00090/vsc43765/Deforestation-Impacts-on-Climate/02-src/01-mods/output/BR-__MVAL__/03_bias/tall"
