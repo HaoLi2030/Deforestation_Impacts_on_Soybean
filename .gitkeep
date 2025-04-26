@@ -1,0 +1,2 @@
+# Find all empty directories and add .gitkeep files
+find . -type d -empty -exec touch {}/.gitkeep \;
